@@ -6,6 +6,9 @@ authors = ["Carlos Junior <cajunior.ps@outlook.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+PyQt5 = "5.15.6"
+pyqt5-tools = "5.15.4.3.2"
+
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
