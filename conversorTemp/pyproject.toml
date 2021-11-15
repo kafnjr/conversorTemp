@@ -5,10 +5,10 @@ description = ""
 authors = ["Carlos Junior <cajunior.ps@outlook.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
-PyQt5 = "5.15.6"
-pyqt5-tools = "5.15.4.3.2"
-
+python = ">=3.8, <3.11"
+PyQt5-stubs = "^5.15.2"
+PyQt5 = "5.15.4"
+pyinstaller = "^4.7"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"

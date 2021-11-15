@@ -1,0 +1,12 @@
+pyuic5 conversor.ui -o conversor.py 
+
+pyinstaller --onefile --windowed .\main.py --additional-hooks-dir=.\conversor.py
+
+OBS: Antes de executar o comando acima, adicionar o módulo no main.py deste forma:
+	from conversortemp import conversor
+
+comando:
+
+pyinstaller --onefile --windowed .\main.py
+
+Também pode ser usado
